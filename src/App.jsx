@@ -1,9 +1,15 @@
-function App() {
+import { Header, Formulario, ListadoPacientes } from './components/index';
+
+Header;
+
+const App = () => {
   return (
-    <div>
-      <h1>Hola Mundo</h1>
-    </div>
+    <>
+      <Header />
+      <Formulario />
+      <ListadoPacientes />
+    </>
   );
-}
+};
 
 export default App;
