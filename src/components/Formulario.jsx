@@ -1,5 +1,6 @@
 import {
   encabezadoSeccion,
+  subTituloSec,
   formStyles,
   labelForm,
   inputForm,
@@ -12,7 +13,7 @@ const Formulario = () => {
       <h2 className={encabezadoSeccion}>Seguimiento Pacientes</h2>
       <p className="text-lg text-center">
         Añade y Administra {''}
-        <span className="text-indigo-700 font-black">Mascotas</span>
+        <span className={subTituloSec}>Mascotas</span>
       </p>
       <form className={formStyles}>
         {/*Nombre de la mascota*/}
