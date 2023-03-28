@@ -1,14 +1,14 @@
 import { Header, Formulario, ListadoPacientes } from './components/index';
 
-Header;
-
 const App = () => {
   return (
-    <>
+    <div className="container mx-auto mt-20">
       <Header />
-      <Formulario />
-      <ListadoPacientes />
-    </>
+      <div className="mt-12 flex">
+        <Formulario />
+        <ListadoPacientes />
+      </div>
+    </div>
   );
 };
 
